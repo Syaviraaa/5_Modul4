@@ -1,0 +1,28 @@
+{
+  "name": "basic-core-component",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@gluestack-style/legend-motion-animation-driver": "^1.0.2",
+    "@gluestack-style/react": "^1.0.8",
+    "@gluestack-ui/config": "^1.0.3",
+    "@gluestack-ui/themed": "^1.0.8",
+    "@react-native-aria/focus": "^0.2.9",
+    "@react-native-aria/interactions": "^0.2.11",
+    "@react-native-aria/overlays": "^0.3.10",
+    "expo": "~49.0.13",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
